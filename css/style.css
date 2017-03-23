@@ -3402,7 +3402,24 @@ you can use the generic selector below, but it's slower:
   background: url("../img/to-top.png") center no-repeat;
   cursor: pointer; }
 
-@media screen and (-webkit-min-device-pixel-ratio: 0) {/* HEADINGS */
+.table > tbody > tr > td {
+  text-align: left; }
+
+.brief .feature-list {
+  text-align: left; }
+  .brief .feature-list h2 {
+    text-align: left; }
+  .brief .feature-list li {
+    margin-bottom: 26px; }
+  .brief .feature-list li i {
+    margin-right: 10px;
+    vertical-align: inherit; }
+
+.brief .col-md-6 {
+  text-align: left; }
+  .brief .col-md-6 p {
+    margin-top: 50px; }
+  @media screen and (-webkit-min-device-pixel-ratio: 0) {/* HEADINGS */
   h1,
   h2 {
     font-family: 'Lane', sans-serif;
